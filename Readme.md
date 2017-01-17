@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Александров](https://up.htmlacademy.ru/htmlcss/16/user/276827).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Клевцов](https://htmlacademy.ru/profile/maxklevtsov).
 
 ---
 

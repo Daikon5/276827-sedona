@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <title>Sedona - "Because the Grand Canyon sucks!"</title>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <nav class="main-navigation">
+               <ul>
+                  <li>
+                     <a href="#">Информация</a>
+                  </li>
+                  <li>
+                     <a href="#">Фото и видео</a>
+                  </li>
+                  <li>
+                     <a href="#">Карта штата</a>
+                  </li>
+                  <li>
+                     <a href="#">Гостиницы</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <main class="container">
+         <section class="specs">
+            <div class="infrastructure">
+               Инфраструктора: <br>
+               <input type="checkbox">Бассейн<br>
+               <input type="checkbox">Парковка<br>
+               <input type="checkbox">Wi-Fi<br>
+            </div>
+            <div class="hotel-type">
+               Тип жилья: <br>
+               <input type="checkbox">Гостиница<br>
+               <input type="checkbox">Мотель<br>
+               <input type="checkbox">Апартаменты<br>
+            </div>
+            <div class="cost">
+               <p>Стоимость в сутки (Р.):</p>
+               <br>
+               От <input type="number" name="cost-min" value="0"> До <input type="number" name="cost-min" value="3000"><br>
+               <input type="range" name="cost-range"><br>
+               <input type="submit" value="Показать">
+            </div>
+         </section>
+         <section class="items">
+            <div class="sorting">
+               <p>
+                  <span>Найдено: 3</span> 
+                  Сортировка по 
+                  <input type="radio" name="sort">По цене
+                  <input type="radio" name="sort">По типу
+                  <input type="radio" name="sort">По рейтингу
+                  <input type="submit" name="sort-top-bot" value="Снизу вверх">
+                  <input type="submit" name="sort-top-bot" value="Сверху вниз">
+               </p>
+            </div>
+            <div class="item">
+               <img src="img/Amara-thumb.png" width="150" height="50" alt="Amara resort & SPA">
+               <p>Amara resort & SPA</p>
+            </div>
+         </section>
+      </main>
+      <footer class="main-footer">
+         <div class="container">
+            <section class="hashtag">
+               #visitsedona	
+            </section>
+            <section class="footer-social">
+               <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+               <a class="social-btn social-btn-fb" href="#">Facebook</a>
+               <a class="social-btn social-btn-youtube" href="#">Youtube</a>
+            </section>
+            <section class="footer-copyright">
+               <a class="btn" href="https://htmlacademy.ru"> <img src="img/by-htmlacademy.png" width="250" height="50" alt="Htmlacademy.ru"></a>
+            </section>
+         </div>
+      </footer>
+   </body>
+</html>

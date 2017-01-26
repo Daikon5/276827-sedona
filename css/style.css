@@ -1,0 +1,23 @@
+body {
+    font-size: 10px;
+    line-height: 2.1em;
+    color: black;
+    font-weight: normal;
+    font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.big {
+   font-size: 15px;
+   line-height: 21px;
+   color: black;
+   font-weight: bold;
+   font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.booking-search p:first-child {
+   font-size: 21px;
+   line-height: 2,1em;
+   color: black;
+   font-weight: bold;
+   font-family: "PT Sans", "Arial", sans-serif;
+}

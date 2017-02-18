@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="utf-8">
+      <title>Sedona - "Because the Grand Canyon sucks!"</title>
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <header class="main-header">
+        <div class="header-wrap">
+           <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="Sedona Logo"></a>
+            <nav class="main-navigation">
+               <ul>
+                  <li>
+                     <a href="#">Информация</a>
+                  </li>
+                  <li>
+                     <a href="#">Фото и видео</a>
+                  </li>
+                  <li>
+                     <a href="#">Карта штата</a>
+                  </li>
+                  <li>
+                     <a href="inner.html">Гостиницы</a>
+                  </li>
+               </ul>
+            </nav>
+          </div>
+      </header>
+      <main>
+         <section class="specs">
+            <div class="infrastructure">
+               Инфраструктора: <br>
+               <input type="checkbox">Бассейн<br>
+               <input type="checkbox">Парковка<br>
+               <input type="checkbox">Wi-Fi<br>
+            </div>
+            <div class="hotel-type">
+               Тип жилья: <br>
+               <input type="checkbox">Гостиница<br>
+               <input type="checkbox">Мотель<br>
+               <input type="checkbox">Апартаменты<br>
+            </div>
+            <div class="cost">
+               <p>Стоимость в сутки (Р.):</p>
+               <br>
+               От <input type="number" name="cost-min" value="0"> До <input type="number" name="cost-min" value="3000"><br>
+               <input type="range" step="1"  name="cost-range"><br>
+               <input type="submit" value="Показать">
+            </div>
+         </section>
+         <section class="items">
+            <div class="sorting">
+               <p>
+                  <span class="big">Найдено: 3</span>
+                  Сортировка по:
+                  <a href="#">По цене</a>
+                  <a href="#">По типу</a>
+                  <a href="#">По рейтингу</a>
+                  <a href="#">Снизу вверх</a>
+                  <a href="#">Сверху вниз</a>
+               </p>
+            </div>
+            <div class="item">
+               <div class="item-pic">
+               <img src="img/amara.jpg" width="135" height="90" alt="Amara resort & SPA">
+               </div>
+               <div class="item-spec">
+               <p class="big">Amara resort & SPA</p>
+               <p>Гостиница</p>
+               <p>От 4000 р.</p>
+               <a href="#">Подробнее</a>
+               <a href="#">Забронировать</a>
+               <p>Рейтинг: 8,5</p>
+              </div>
+            </div>
+            <div class="item">
+               <div class="item-pic">
+               <img src="img/desertqinn.jpg" width="135" height="90" alt="Desert Quail Inn">
+               </div>
+               <div class="item-spec">
+               <p class="big">Desert Quail Inn</p>
+               <p>Мотель</p>
+               <p>От 3000 р.</p>
+               <a href="#">Подробнее</a>
+               <a href="#">Забронировать</a>
+               <p>Рейтинг: 8,9</p>
+               </div>
+            </div>
+            <div class="item">
+               <div class="item-pic">
+               <img src="img/villas.jpg" width="135" height="90" alt="Villas at Poco Diablo">
+               </div>
+               <div class="item-spec">
+               <p class="big">Villas at Poco Diablo</p>
+               <p>Апартаменты</p>
+               <p>От 2000 р.</p>
+               <a href="#">Подробнее</a>
+               <a href="#">Забронировать</a>
+               <p>Рейтинг: 9,2</p>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="main-footer">
+            <section class="footer-hashtag big">
+               #visitsedona
+            </section>
+            <section class="footer-social">
+               <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+               <a class="social-btn social-btn-fb" href="#">Facebook</a>
+               <a class="social-btn social-btn-youtube" href="#">Youtube</a>
+            </section>
+            <section class="footer-copyright">
+               <a class="btn" href="https://htmlacademy.ru"> <img src="img/by-htmlacademy.png" width="250" height="50" alt="Htmlacademy.ru"></a>
+            </section>
+      </footer>
+   </body>
+</html>
